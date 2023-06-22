@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
 import { Form, Label, Button, Input } from './ContactForm.styled';
-// import { ReactComponent as AddIcon } from '../icons/add.svg';
+import { ReactComponent as AddIcon } from '../icons/add.svg';
 
 class ContactForm extends Component {
   state = {
